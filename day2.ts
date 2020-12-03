@@ -1,6 +1,5 @@
 import fs from "fs";
 
-
 const raw = fs.readFileSync("./day2.txt");
 const input = raw.toString().split("\n");
 input.pop();
