@@ -37,8 +37,6 @@ const groups2 = input.map((group, i) => {
   return allYes.length;
 });
 
-console.log(JSON.stringify(groups2))
-
 const checksum2 = groups2.reduce((acc, next) => acc + next);
 
 console.log("Part 2:", checksum2);
